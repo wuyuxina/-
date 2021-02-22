@@ -1,0 +1,112 @@
+/**
+ * @author 朱明月
+ * @description 一些通用样式(scoped)
+ * @createTime  2019-11-20
+ */
+@bgWhite: #ffffff;
+@bgBlack: #000000;
+@bgHover: #2bbafd;
+@defaultBg: @bgWhite; //默认的背景色
+
+@colorWhite: #ffffff;
+@colorBlack: #000000;
+@defaultColor: @colorBlack; //默认的前景色
+@hoverColor: #ffffff;//默认的鼠标移上的前景色
+@legendColor: rgba(2, 244, 255, 1);//图例前景色
+
+
+@borderColor: #E4E7ED;
+@menuHover: #0a6d9b;
+@url: '../../../static/img';
+.routine_border(@border: 1px solid #E4E7ED){
+  border: @border;
+}
+
+.no_padding{padding: 0!important;}
+.no_padding_left{padding-left: 0!important;}
+.no_padding_right{padding-right: 0!important;}
+.no_margin{margin: 0;}
+.padding{padding: 30px;}
+.padding_xl{padding: 15px;}
+.padding_side_xl{padding-left: 15px; padding-right: 15px;}
+.padding_left_xl{padding-left: 15px;}
+.padding_left{padding-left: 30px;}
+.padding_right{padding-right: 30px;}
+.padding_right_xl{padding-right: 15px;}
+.padding_bottom_xl{padding-bottom: 15px;}
+.padding_bottom{padding-bottom: 30px;}
+.margin{margin: 30px;}
+.margin_bottom{margin-bottom: 30px;}
+.margin_top{margin-top: 30px;}
+.margin_bottom_xl{margin-bottom: 15px;}
+.margin_right_xl{margin-right: 15px;}
+.margin_right_xs{margin-right: 5px;}
+.margin_top_xl{margin-top: 15px;}
+.margin_left_xl{margin-left: 15px;}
+
+.text_center{text-align: center;}
+.text_left{text-align: left;}
+.text_nowrap{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.float_right{float: right!important;}
+.full_wha{width: 100%; height: 100%; overflow: auto;}
+.full_whh{width: 100%; height: 100%; overflow: hidden;}
+.full_h{height: calc(100% - 10px);}
+.full_hh{height: 100%; overflow: hidden;}
+.my_full_h{height: 100%;}
+.full_w{width:  100%;}
+.full_wh_p{width: calc(100 - 40px); height: calc(100% - 20px); overflow: auto; padding: 10px 20px;}
+.full_wh_has_padding_top{
+  width: 100%;
+  height: calc(100% - 15px);
+  padding-top: 15px;
+}
+.fulls_has_padding{
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  padding: 15px;
+}
+.bg_white{background: @bgWhite;}
+.my_pos_relative{
+  position: relative;
+}
+
+.empty_box{
+  .full_whh;
+  text-align: center;
+  position: relative;
+  transform: translateY(calc(50% - 12px));
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 5px;
+}
+
+
+.my_page_header_title{
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px 30px;
+}
+.has_header_title{
+  width: calc(100% - 45px);
+  height: calc(100% - 40px);
+  overflow: hidden;
+  padding: 0px 15px 0px 30px;
+}
+
+.my_empty_node{
+  color: @colorWhite;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  background: transparent!important;
+  border: 1px dashed #1588f3;
+}
+
+

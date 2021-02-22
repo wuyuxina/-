@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+
+    <!-- jquery start-->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <!-- jquery end-->
+    
+    <script type="text/javascript" src="layui/layui.all.js"></script>
+    <!--地图相关 start-->
+    <link rel="stylesheet" type="text/css" href="/static/map/v6.2.1/ol.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/static/map/ZMap.css"> -->
+
+    <!-- <script type="text/javascript" src="haikang/SinoVms.js"></script> -->
+    <script type="text/javascript" src="/static/map/gis-config.js"></script>
+    <script type="text/javascript" src="/static/map/jquery-3.3.1.js"></script>
+    <!-- <script type="text/javascript" src="/static/js/jquery.form.js"></script> -->
+    <script type="text/javascript" src="/static/map/v6.2.1/closure/goog/base.js"></script>
+    <script type="text/javascript" src="/static/map/v6.2.1/ol.js"></script>
+    <script type="text/javascript" src="/static/map/iclient9-openlayers.js"></script>
+    <script type="text/javascript" src="/static/map/flash-marker.js"></script>
+    <script type="text/javascript" src="/static/map/ZMap.js"></script>
+    <script type="text/javascript" src="/static/map/ZMap_config.js"></script>
+    <!--地图相关 end-->
+    <!-- video视频播放 -->
+	<!-- <link rel="stylesheet" type="text/css" href="../src/assets/video/video-js.min.css"> -->
+	<!-- <script type="text/javascript" src="../src/assets/video/video.min.js"></script> -->
+  <!-- <script type="text/javascript" src="../src/assets/video/vue-video-player.js"></script> -->
+  
+  <!-- <script type="text/javascript" src="../src/assets/video/videojs-flash.min.js"></script> -->
+  
+  <!-- <script type="text/javascript" src="../src/assets/video/videojs-contrib-hls.min.js"></script> -->
+
+   
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
